@@ -1,0 +1,6 @@
+DBCC CHECKIDENT(TruckInformation, RESEED, 0);
+DBCC CHECKIDENT(TrailerInformation, RESEED, 0);
+DBCC CHECKIDENT(drivers, RESEED, 0);
+DBCC CHECKIDENT(TruckMaintenance, RESEED, 0);
+DBCC CHECKIDENT(HaulRecord, RESEED, 0);
+DBCC CHECKIDENT(HaulManifest, RESEED, 0);
